@@ -1,0 +1,54 @@
+Create a fully modern, professional, responsive portfolio website for me. The website should include:
+
+1. **Home / Hero Section:**
+   - Eye-catching 3D interactive elements or animations (floating shapes, particles, or 3D text).
+   - Smooth entrance animations for texts and buttons.
+   - My name: "RATHWA BALAVANT TRIKAM BHAI"
+   - Short tagline like: "Aspiring Computer Engineer & AI Enthusiast"
+   - Button to scroll to Projects section.
+
+2. **About Me Section:**
+   - Include my education details:
+     - ITI: Ankleshwar ITI, Computer Programming trade, Passout: 2021, 73%
+     - Diploma: Diploma in Computer Engineering, Shri K.J. Polytechnic, Bharuch
+   - Present education in a professional, readable paragraph.
+   - Include skills (HTML, CSS, JavaScript, Cloud Computing, AI tools) as animated icons or badges.
+   - Add subtle 3D elements or interactive visuals beside the text.
+
+3. **Projects Section:**
+   - 3–4 project placeholders with:
+     - Project title
+     - Short description
+     - Hover or 3D interactive effect showing project details
+     - Buttons for live demo / GitHub link
+   - Example projects:
+     - Portfolio Website
+     - AI Chatbot
+     - Automation Tools
+     - Additional placeholder project
+
+4. **Contact Section:**
+   - Animated contact form (name, email, message)
+   - Functional submit demo (can use alert or placeholder)
+   - Social links: GitHub, LinkedIn
+   - Optional: interactive map or icon animations
+
+5. **Animations & 3D Effects:**
+   - Use GSAP for scroll-triggered and hover animations
+   - Integrate three.js for 3D objects or background
+   - Smooth transitions between sections
+   - Hover and micro-interactions on buttons and cards
+   - Subtle parallax effect in backgrounds
+
+6. **Professional Design Touches:**
+   - Sticky navigation with smooth scrolling
+   - Mobile-friendly and responsive layout
+   - Dark/light theme toggle
+   - Lazy loading of images for performance
+   - Modern color palette and clean typography
+
+7. **SEO & Meta:**
+   - Include meta description, title, and keywords
+   - Footer with copyright and links
+
+Generate all **HTML, CSS, and JS files**, fully structured, ready to run in Replit AI. Include comments explaining key sections and animations. Make the website look cutting-edge, professional, and modern, highlighting my education, skills, and projects.
