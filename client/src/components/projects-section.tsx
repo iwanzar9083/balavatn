@@ -101,18 +101,34 @@ export default function ProjectsSection() {
                 </div>
                 <div className="flex gap-4 pt-4">
                   <Button 
+                    asChild
                     className="bg-primary text-primary-foreground hover:bg-primary/90"
                     data-testid={`project-demo-${project.id}`}
                   >
-                    <Eye className="h-4 w-4 mr-2" />
-                    Live Demo
+                    <a 
+                      href={project.demoUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      aria-label={`Open live demo for ${project.title}`}
+                    >
+                      <Eye className="h-4 w-4 mr-2" />
+                      Live Demo
+                    </a>
                   </Button>
                   <Button 
+                    asChild
                     variant="outline"
                     data-testid={`project-github-${project.id}`}
                   >
-                    <Github className="h-4 w-4 mr-2" />
-                    GitHub
+                    <a 
+                      href={project.githubUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      aria-label={`Open GitHub repository for ${project.title}`}
+                    >
+                      <Github className="h-4 w-4 mr-2" />
+                      GitHub
+                    </a>
                   </Button>
                 </div>
               </div>
